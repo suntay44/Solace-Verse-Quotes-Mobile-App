@@ -1,0 +1,26 @@
+[
+  {
+    "id": "meditation",
+    "category": "Meditation",
+    "label": "Meditation",
+    "audioFolder": "audio/meditation",
+    "defaultAmbientAudioFileName": "ambient_meditation.m4a",
+    "defaultAmbientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": "bible",
+    "category": "Bible",
+    "label": "Bible Verses",
+    "audioFolder": "audio/bible",
+    "defaultAmbientAudioFileName": "ambient_bible.m4a",
+    "defaultAmbientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": "quote",
+    "category": "Quote",
+    "label": "Daily Quotes",
+    "audioFolder": "audio/quotes",
+    "defaultAmbientAudioFileName": "ambient_quote.m4a",
+    "defaultAmbientAudioPath": "audio/ambient/ambient_quote.m4a"
+  }
+]

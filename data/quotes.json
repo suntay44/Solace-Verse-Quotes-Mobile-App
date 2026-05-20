@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "text": "Breathe in stillness. Breathe out what no longer needs to follow you.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Meditation",
+    "categoryID": "meditation",
+    "voiceAudioFileName": "meditation_01.m4a",
+    "voiceAudioPath": "audio/meditation/meditation_01.m4a",
+    "ambientAudioFileName": "ambient_meditation.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": 2,
+    "text": "Return to the present moment gently; it has been waiting without judgment.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Meditation",
+    "categoryID": "meditation",
+    "voiceAudioFileName": "meditation_02.m4a",
+    "voiceAudioPath": "audio/meditation/meditation_02.m4a",
+    "ambientAudioFileName": "ambient_meditation.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": 3,
+    "text": "Let the next breath be simple enough to trust.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Meditation",
+    "categoryID": "meditation",
+    "voiceAudioFileName": "meditation_03.m4a",
+    "voiceAudioPath": "audio/meditation/meditation_03.m4a",
+    "ambientAudioFileName": "ambient_meditation.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": 4,
+    "text": "Notice the breath before you try to change the day.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Meditation",
+    "categoryID": "meditation",
+    "voiceAudioFileName": "meditation_04.m4a",
+    "voiceAudioPath": "audio/meditation/meditation_04.m4a",
+    "ambientAudioFileName": "ambient_meditation.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": 5,
+    "text": "Let your attention settle like light across a quiet room.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Meditation",
+    "categoryID": "meditation",
+    "voiceAudioFileName": "meditation_05.m4a",
+    "voiceAudioPath": "audio/meditation/meditation_05.m4a",
+    "ambientAudioFileName": "ambient_meditation.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_meditation.m4a"
+  },
+  {
+    "id": 101,
+    "text": "The Lord is my shepherd; I shall not want.",
+    "referenceOrAuthor": "Psalm 23:1",
+    "category": "Bible",
+    "categoryID": "bible",
+    "voiceAudioFileName": "bible_01.m4a",
+    "voiceAudioPath": "audio/bible/bible_01.m4a",
+    "ambientAudioFileName": "ambient_bible.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": 102,
+    "text": "Be still, and know that I am God.",
+    "referenceOrAuthor": "Psalm 46:10",
+    "category": "Bible",
+    "categoryID": "bible",
+    "voiceAudioFileName": "bible_02.m4a",
+    "voiceAudioPath": "audio/bible/bible_02.m4a",
+    "ambientAudioFileName": "ambient_bible.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": 103,
+    "text": "Let all that you do be done in love.",
+    "referenceOrAuthor": "1 Corinthians 16:14",
+    "category": "Bible",
+    "categoryID": "bible",
+    "voiceAudioFileName": "bible_03.m4a",
+    "voiceAudioPath": "audio/bible/bible_03.m4a",
+    "ambientAudioFileName": "ambient_bible.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": 104,
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "referenceOrAuthor": "1 Peter 5:7",
+    "category": "Bible",
+    "categoryID": "bible",
+    "voiceAudioFileName": "bible_04.m4a",
+    "voiceAudioPath": "audio/bible/bible_04.m4a",
+    "ambientAudioFileName": "ambient_bible.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": 105,
+    "text": "Your word is a lamp to my feet and a light to my path.",
+    "referenceOrAuthor": "Psalm 119:105",
+    "category": "Bible",
+    "categoryID": "bible",
+    "voiceAudioFileName": "bible_05.m4a",
+    "voiceAudioPath": "audio/bible/bible_05.m4a",
+    "ambientAudioFileName": "ambient_bible.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_bible.m4a"
+  },
+  {
+    "id": 201,
+    "text": "The quietest step forward still counts.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Quote",
+    "categoryID": "quote",
+    "voiceAudioFileName": "quote_01.m4a",
+    "voiceAudioPath": "audio/quotes/quote_01.m4a",
+    "ambientAudioFileName": "ambient_quote.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_quote.m4a"
+  },
+  {
+    "id": 202,
+    "text": "Begin where your courage is small, and let it grow by being used.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Quote",
+    "categoryID": "quote",
+    "voiceAudioFileName": "quote_02.m4a",
+    "voiceAudioPath": "audio/quotes/quote_02.m4a",
+    "ambientAudioFileName": "ambient_quote.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_quote.m4a"
+  },
+  {
+    "id": 203,
+    "text": "Peace is often built one honest minute at a time.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Quote",
+    "categoryID": "quote",
+    "voiceAudioFileName": "quote_03.m4a",
+    "voiceAudioPath": "audio/quotes/quote_03.m4a",
+    "ambientAudioFileName": "ambient_quote.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_quote.m4a"
+  },
+  {
+    "id": 204,
+    "text": "You do not need to rush what is becoming steady.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Quote",
+    "categoryID": "quote",
+    "voiceAudioFileName": "quote_04.m4a",
+    "voiceAudioPath": "audio/quotes/quote_04.m4a",
+    "ambientAudioFileName": "ambient_quote.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_quote.m4a"
+  },
+  {
+    "id": 205,
+    "text": "A clear heart can make even a small day spacious.",
+    "referenceOrAuthor": "QuoteVerse",
+    "category": "Quote",
+    "categoryID": "quote",
+    "voiceAudioFileName": "quote_05.m4a",
+    "voiceAudioPath": "audio/quotes/quote_05.m4a",
+    "ambientAudioFileName": "ambient_quote.m4a",
+    "ambientAudioPath": "audio/ambient/ambient_quote.m4a"
+  }
+]

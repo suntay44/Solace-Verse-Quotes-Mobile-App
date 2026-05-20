@@ -13,7 +13,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quoteverse.app",
+      "scheme": "quoteverse"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "quoteverse",
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
