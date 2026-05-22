@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "QuoteVerseMobileApp",
-    "slug": "QuoteVerseMobileApp",
+    "name": "Daily Focus",
+    "slug": "daily-focus-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,8 +14,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.quoteverse.app",
-      "scheme": "quoteverse"
+      "bundleIdentifier": "com.dailyfocus.app",
+      "scheme": "dailyfocus"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,9 +28,10 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "scheme": "quoteverse",
+    "scheme": "dailyfocus",
     "plugins": [
-      "expo-secure-store"
+      "expo-secure-store",
+      "expo-font"
     ]
   }
 }

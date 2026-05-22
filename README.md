@@ -1,4 +1,4 @@
-# QuoteVerseMobileApp
+# DailyFocusMobileApp
 
 This workspace contains two layers:
 
@@ -26,16 +26,16 @@ Expo Go cannot run a WidgetKit extension, StoreKit 2 purchase sheet, custom AVFo
 
 When creating the Xcode app target, add these files to the main app target:
 
-- `native/QuoteVerseApp/QuoteOrVerse.swift`
-- `native/QuoteVerseApp/DataRepository.swift`
-- `native/QuoteVerseApp/AudioManager.swift`
-- `native/QuoteVerseApp/OnboardingView.swift`
-- `native/QuoteVerseApp/QuoteVerseApp.swift`
+- `native/DailyFocusApp/QuoteOrVerse.swift`
+- `native/DailyFocusApp/DataRepository.swift`
+- `native/DailyFocusApp/AudioManager.swift`
+- `native/DailyFocusApp/OnboardingView.swift`
+- `native/DailyFocusApp/DailyFocusApp.swift`
 - `data/quotes.json`
 - `data/categories.json`
 - audio files matching the `voiceAudioPath` and `ambientAudioPath` values listed in `data/quotes.json`
 
-Add `native/QuoteVerseWidget/DailyQuoteWidget.swift`, `native/QuoteVerseApp/QuoteOrVerse.swift`, `native/QuoteVerseApp/DataRepository.swift`, `data/categories.json`, and `data/quotes.json` to the widget extension target.
+Add `native/DailyFocusWidget/DailyQuoteWidget.swift`, `native/DailyFocusApp/QuoteOrVerse.swift`, `native/DailyFocusApp/DataRepository.swift`, `data/categories.json`, and `data/quotes.json` to the widget extension target.
 
 Local audio is grouped by user preference:
 
@@ -46,8 +46,8 @@ Local audio is grouped by user preference:
 
 Configure these native capabilities/settings in Xcode:
 
-- URL scheme: Target Info -> URL Types -> add `quoteverse`.
+- URL scheme: Target Info -> URL Types -> add `dailyfocus`.
 - Background audio: main app target -> Signing & Capabilities -> Background Modes -> Audio, AirPlay, and Picture in Picture.
-- App Group: add `group.com.quoteverse.app` to both the main app and widget extension so `UserDefaults` daily IDs are shared.
-- StoreKit product: create a non-consumable IAP with product ID `com.quoteverse.foundersedition` priced at `$1.99`.
+- App Group: add `group.com.dailyfocus.app` to both the main app and widget extension so `UserDefaults` daily IDs are shared.
+- StoreKit product: create a non-consumable IAP with product ID `com.dailyfocus.foundersedition` priced at `$1.99`.
 # Solace-Verse-Quotes-Mobile-App

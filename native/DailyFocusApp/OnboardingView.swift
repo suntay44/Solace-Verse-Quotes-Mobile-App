@@ -8,7 +8,7 @@ struct OnboardingView: View {
     @State private var founderProduct: Product?
     @State private var purchaseError: String?
 
-    private let productID = "com.quoteverse.foundersedition"
+    private let productID = "com.dailyfocus.foundersedition"
 
     var body: some View {
         TabView(selection: $page) {
@@ -25,7 +25,7 @@ struct OnboardingView: View {
 
     private var introScreen: some View {
         VStack(alignment: .leading, spacing: 24) {
-            Text("QuoteVerse")
+            Text("Daily Focus")
                 .font(.caption.weight(.bold))
                 .foregroundStyle(.secondary)
 
@@ -54,7 +54,7 @@ struct OnboardingView: View {
 
     private var categorySelection: some View {
         VStack(alignment: .leading, spacing: 24) {
-            Text("QuoteVerse")
+            Text("Daily Focus")
                 .font(.caption.weight(.bold))
                 .foregroundStyle(.secondary)
 
@@ -134,7 +134,7 @@ struct OnboardingView: View {
 
             instructionRow(number: 1, text: "Long-press your Home Screen or Lock Screen.")
             instructionRow(number: 2, text: "Tap Edit or the add button.")
-            instructionRow(number: 3, text: "Choose QuoteVerse and place the widget.")
+            instructionRow(number: 3, text: "Choose Daily Focus and place the widget.")
 
             Button("Finish") {
                 isOnboardingCompleted = true

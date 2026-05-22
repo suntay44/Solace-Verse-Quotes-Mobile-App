@@ -32,7 +32,7 @@ struct DailyQuoteProvider: AppIntentTimelineProvider {
     }
 
     private func entry(for configuration: DailyQuoteConfigurationIntent) -> DailyQuoteEntry {
-        let repository = DataRepository(userDefaults: UserDefaults(suiteName: "group.com.quoteverse.app") ?? .standard)
+        let repository = DataRepository(userDefaults: UserDefaults(suiteName: "group.com.dailyfocus.app") ?? .standard)
         let category = configuration.category.isEmpty ? "Meditation" : configuration.category
         return DailyQuoteEntry(
             date: Date(),
@@ -57,7 +57,7 @@ struct DailyQuoteWidgetView: View {
 
             Spacer(minLength: 4)
 
-            Text(entry.selection?.referenceOrAuthor ?? "QuoteVerse")
+            Text(entry.selection?.referenceOrAuthor ?? "Daily Focus")
                 .font(.caption)
                 .foregroundStyle(.secondary)
         }
@@ -68,7 +68,7 @@ struct DailyQuoteWidgetView: View {
     private var widgetURL: URL? {
         guard let selection = entry.selection else { return nil }
         var components = URLComponents()
-        components.scheme = "quoteverse"
+        components.scheme = "dailyfocus"
         components.host = "play"
         components.queryItems = [
             URLQueryItem(name: "category", value: selection.category),
@@ -89,7 +89,7 @@ struct DailyQuoteWidget: Widget {
         AppIntentConfiguration(kind: kind, intent: DailyQuoteConfigurationIntent.self, provider: DailyQuoteProvider()) { entry in
             DailyQuoteWidgetView(entry: entry)
         }
-        .configurationDisplayName("QuoteVerse")
+        .configurationDisplayName("Daily Focus")
         .description("Tap your daily selection to open the app and begin playback.")
         .supportedFamilies([.systemSmall, .systemMedium, .accessoryRectangular, .accessoryInline])
     }

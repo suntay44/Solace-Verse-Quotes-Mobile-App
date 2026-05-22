@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct QuoteVerseApp: App {
+struct DailyFocusApp: App {
     @AppStorage("preferredCategory") private var preferredCategory = "Meditation"
     @AppStorage("isOnboardingCompleted") private var isOnboardingCompleted = false
     @StateObject private var repository = DataRepository.shared
@@ -23,7 +23,7 @@ struct QuoteVerseApp: App {
     }
 
     private func handleDeepLink(_ url: URL) {
-        guard url.scheme == "quoteverse",
+        guard url.scheme == "dailyfocus",
               url.host == "play",
               let components = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
             return

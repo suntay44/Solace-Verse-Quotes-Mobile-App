@@ -13,7 +13,7 @@ final class DataRepository: ObservableObject {
     private let currentDailyIDsKey = "currentDailyIDs"
 
     init(
-        userDefaults: UserDefaults = UserDefaults(suiteName: "group.com.quoteverse.app") ?? .standard,
+        userDefaults: UserDefaults = UserDefaults(suiteName: "group.com.dailyfocus.app") ?? .standard,
         calendar: Calendar = .current
     ) {
         self.userDefaults = userDefaults

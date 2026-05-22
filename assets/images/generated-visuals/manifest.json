@@ -1,0 +1,17 @@
+{
+  "calm": {
+    "meditation": "assets/images/generated-visuals/calm-meditation.jpg",
+    "bible": "assets/images/generated-visuals/calm-bible.jpg",
+    "quote": "assets/images/generated-visuals/calm-quote.jpg"
+  },
+  "iphone": {
+    "meditation": "assets/images/generated-visuals/iphone-meditation.jpg",
+    "bible": "assets/images/generated-visuals/iphone-bible.jpg",
+    "quote": "assets/images/generated-visuals/iphone-quote.jpg"
+  },
+  "nature": {
+    "meditation": "assets/images/generated-visuals/nature-meditation.jpg",
+    "bible": "assets/images/generated-visuals/nature-bible.jpg",
+    "quote": "assets/images/generated-visuals/nature-quote.jpg"
+  }
+}
